@@ -16,7 +16,7 @@
         </p>
     </div>
     <div>
-            <p>Estos son los mejores albumes de Anuel:<p>          
+            <p>Estos son algunos de mis temas favoritos de Bryant Mayers: <p>          
     <a href="https://open.spotify.com/album/5pQwQRnQOuKrbVUVnGMEN4?si=UYy01PQGTPStoxo95-xi9w"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Real_Hasta_la_Muerte.png/1200px-Real_Hasta_la_Muerte.png" alt="Real Hasta La Muerte "
         width="100" height="100"></a>
         <p>Real Hasta La Muerte</p>
