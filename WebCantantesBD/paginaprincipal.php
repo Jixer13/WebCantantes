@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <link rel="stylesheet" type="text/css" href="paginaPrincipalcss.css">
-
 </head>
 <body>
+
+    <?php
+    include 'consulta_cantantes.php';
+    ?>
 
     <form method="post" action="consulta_cantantes.php">
         <button type="submit" name="btnNombre">Mostrar Nombres</button>
@@ -35,5 +38,6 @@
     <?php endif; ?>
 
     <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
+    
 </body>
 </html>
