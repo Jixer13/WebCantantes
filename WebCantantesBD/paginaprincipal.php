@@ -2,22 +2,36 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="paginaPrincipalcss.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEB DE PALOS</title>
+    <title>Página Principal</title>
 </head>
 <body>
 
-    <div class="header">
-        <h2>WEB DE PALOS</h2>
-    </div>
+    <form method="post" action="consulta_cantantes.php">
+        <button type="submit" name="btnNombre">Mostrar Nombres</button>
+        <button type="submit" name="btnCanciones">Mostrar Canciones</button>
+        <button type="submit" name="btnNacionalidad">Mostrar Nacionalidades</button>
+    </form>
 
-    <div class="content">
-        <h4>Seleccione en qué país quiere encontrar sus mejores artistas</h4>
-        <input type="button" onclick="window.location='puertorico.php'" class="Redirect" value="Puerto Rico 🇵🇷"/> <br/><br/>
-        <input type="button" onclick="window.location='españa.php'" class="Redirect" value="España 🇪🇸"/> <br/><br/>
-        <input type="button" onclick="window.location='usa.php'" class="Redirect" value="USA 🇺🇸"/> <br/> <br/>
-    </div>
+    <?php if (!empty($cantantes)): ?>
+        <table border="1">
+            <tr>
+                <?php foreach (array_keys($cantantes[0]) as $column): ?>
+                    <th><?php echo $column; ?></th>
+                <?php endforeach; ?>
+            </tr>
+            <?php foreach ($cantantes as $cantante): ?>
+                <tr>
+                    <?php foreach ($cantante as $value): ?>
+                        <td><?php echo $value; ?></td>
+                    <?php endforeach; ?>
+                </tr>
+            <?php endforeach; ?>
+        </table>
+    <?php else: ?>
+        <p>No hay información de cantantes disponible.</p>
+    <?php endif; ?>
 
+    <p><a href="cerrar_sesion.php">Cerrar Sesión</a></p>
 </body>
 </html>
