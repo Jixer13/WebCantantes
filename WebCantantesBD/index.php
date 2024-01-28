@@ -1,26 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-
-
-<link rel="stylesheet" href="logincss.css">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inicia sesión 🎵</title>
-</head>
-
-<body>
-<form method="POST" action="iniciophp.php">
-  <div>
-    <h1>Login</h1>
-    <h3>Nombre:</h3>
-    <input type="text" placeholder="Nombre" name="username" required>
-    <h3>Contraseña:</h3>
-    <input type="password" placeholder="Contraseña" name="password" required>
-    <br><br>
-      <h5>Si no tienes cuenta clicke aquí <a href="registro.php">Registrarme</a> </h5>
-      <input type="submit" value="Confirmar">
-  </div>
+<html lang="es">
+<body> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+    <title>WEB CANTANTES</title>
+    <br> <br><br> <br>
+    <h1>WEB CANTANTES</h1>  
+    <div class="container">
+        <form action="index.php" method="post">
+            
+            <button type="submit" formaction="login.php" name="boton1">Inicio Sesión</button>
+            <button type="submit" formaction="registro.php" name="boton2">Registrarte</button>
+        </form>
+    </div>
+    
+    
 </body>
-
-</html>
