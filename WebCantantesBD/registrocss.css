@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: rgba(130, 108, 108, 0);
@@ -33,9 +34,10 @@ body {
     padding: 9px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    color: #000000;
+    color: #737272;
     background-color: rgba(72, 39, 39, 0.885);
     border-radius: 8px;
+    font-weight: bold;
 
   }
   
@@ -50,6 +52,11 @@ div {
     background-color: rgba(85, 85, 85, 0.885);
     margin:75px;
     width: 325px;
+    border-style: solid;
+    border-color:rgba(87, 0, 0, 0) ;
+    border-width: 10px;
+    border-color: #00000000;
+    border-radius: 8px;
 }
 a {
     color:rgba(87, 0, 0, 0.859); /* Cambia este valor al color que desees cuando pasas el mouse por encima del enlace */
