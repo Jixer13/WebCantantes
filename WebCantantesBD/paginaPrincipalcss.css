@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    
 }
 
 form {
@@ -11,22 +12,29 @@ button {
     padding: 10px;
     margin-right: 10px;
     cursor: pointer;
+    background-color: rgba(65, 65, 65, 0.799) ;
+    color: rgb(62, 0, 0);
+    font-weight: bold;
 }
 
 table {
-    width: 100%;
+    width: 90%;
     border-collapse: collapse;
     margin-top: 20px;
+    background-color:rgba(86, 86, 86, 0.814);
+    color: rgb(62, 0, 0);
 }
 
 th, td {
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 2px solid #000000;
     text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #320000d6;
+    color: grey;
+    text-align: center;
 }
 
 p {
@@ -36,4 +44,59 @@ p {
 a {
     text-decoration: none;
     color: blue;
+}
+
+html {
+    background-image: url(https://i.pinimg.com/736x/c8/2b/a2/c82ba2efcdc79ad75659db11f0da4610.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+H2 {
+    
+    color: #400000;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background-color:rgba(86, 86, 86, 0.814);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 10px;
+    border: ridge;    
+    border-color: #400000;
+}
+
+H1 { 
+    color:rgb(99, 0, 0);
+    width: 750px;
+    height: 60px;
+    padding: 9px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: rgba(78, 78, 78, 0.885);
+    border-radius: 8px;
+    font-weight: bold;
+    border: solid 2px rgb(62, 0, 0)
+    
+}
+
+#comentarios {
+    width: 750px;
+    height: 40px;
+    padding: 9px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #737272;
+    background-color: rgba(55, 55, 55, 0.885);
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+
+input[name="buscar"] {
+    background-color: rgba(55, 55, 55, 0.885);
+    color: #737272;
+    font-weight: bold;
+    
 }
