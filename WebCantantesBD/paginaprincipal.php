@@ -116,13 +116,4 @@ $conn->close();
     <form method="post">
         <button type="submit" formaction="login.php" name="boton1">Cerrar Sesión</button>
     </form>
-
-    
-    <h2> Comentarios </h2>
-        <form method="post" action="guardar_comentario.php">
-        <input id="comentarios" placeholder="Opina sobre la pagina web (Su cometario sera almacenado y publicado)"></input>
-        <button type="submit">Enviar Comentario</button>
-    </form>
-</body>
-
 </html>
