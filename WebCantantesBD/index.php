@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css.css">
     <title>WEB CANTANTES</title>
     <br> <br><br> <br>
-    <h1>WEB CANTANTES</h1>  
+    <h1>GÉNERO URBANO</h1>  
     <div class="container">
         <form action="index.php" method="post">
             
